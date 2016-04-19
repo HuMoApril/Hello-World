@@ -1,0 +1,15 @@
+Exercise 3 & $
+#Use python as a calculator!!
+
+print "Is it greater?" 4%2>4/2
+
+tables=2
+table_capacity=4
+chairs_around_the_table=tables*table_capacity
+print "There are" tables "available at this time in our office"
+print chairs_around_the_table "people would have seats in our office"
+
+
+
+
+
