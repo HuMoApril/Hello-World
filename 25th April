@@ -43,6 +43,28 @@ print joke_evaluation % hilarious
 # %p指针(用十六进制打印值的内存地址)
 # %n存储输出字符的数量放进参数列表的下一个变量中 
 
+#Exercise 5
+My_name = 'MO HU'
+My_age = 23
+My_height = 157 #cm
+My_weight = 48.5 #kilometers
+My_eyes = 'Black'
+My_teeth = 'White'
+My_hair = black
+
+print "Let's talk about %s." % My_name
+print "She is %d years old." % My_age
+print "She is %d centimeters." % My_height
+print "She is %d kilograms and she is exerciseing everyday to keep fit." % Me_weight
+print "Her teeth are usually %s depending on the coffee." % My_teeth
+
+#This line is tricky.
+Print "If I add %d, %d, %d and %d I get %d" % ( 
+My_age, My_height, My_weight, My_age + My_height+ My_wieght)
+
+
+Ex 7
+
 
 
 
