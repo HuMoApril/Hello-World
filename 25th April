@@ -64,6 +64,7 @@ My_age, My_height, My_weight, My_age + My_height+ My_wieght)
 
 
 #Ex 7 It is time for dinner.
+#EX 10
 
 tabby_cat = "\tI'm tabbled in."
 persain_cat = "\tI'm split\Non a line."
