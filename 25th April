@@ -1,0 +1,49 @@
+#Exercise 6
+# Define W and e
+W = "This is the left side of a string..."
+e = "a string with a right side."
+
+#print w and e in one line(string)
+Print w+e
+
+#define x, binary do_not and y, binary and do_not is the format in y
+# %d 有符号整数
+x = "There are %d types of people." % 10
+binary = "binary"
+do_not = "don't"
+y = "Those who know %s and those whp %s." % (binary, do_not)
+
+print x
+print y
+
+#what is the difference with or without ''???
+print "I said: %r." % x
+print "I also said: '%s'." % y
+
+hilarious = True
+joke_evaluation= "Isn't that joke so funny?? %r"
+
+#make hilarious become % r in the joke_evaluation
+
+print joke_evaluation % hilarious
+
+# All Python format characters
+# %%百分号标记
+# %c字符及其ASCII码
+# %s字符串
+# %d有符号整数(十进制)
+# %u无符号整数(十进制)
+# %o无符号整数(八进制)
+# %x无符号整数(十六进制)
+# %X无符号整数(十六进制大写字符)
+# %e浮点数字(科学计数法)%E浮点数字(科学计数法，用E代替e)
+# %f浮点数字(用小数点符号)
+# %g浮点数字(根据值的大小采用%e或%f)
+# %G浮点数字(类似于%g)
+# %p指针(用十六进制打印值的内存地址)
+# %n存储输出字符的数量放进参数列表的下一个变量中 
+
+
+
+
+
