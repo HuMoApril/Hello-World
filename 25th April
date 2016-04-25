@@ -65,6 +65,24 @@ My_age, My_height, My_weight, My_age + My_height+ My_wieght)
 
 #Ex 7 It is time for dinner.
 
+tabby_cat = "\tI'm tabbled in."
+persain_cat = "\tI'm split\Non a line."
+backslash_cat = "\tI'm \\ a\\ cat."
+
+fat_cat = """
+I'll do a list.
+\t* Cat food.
+\t* Fishies.
+\t* Catnip\n\t* Grass
+"""
+
+print tabby_cat
+print persain_cat
+print backslsh_cat
+print fat_cat
+
+#Why do I get a cold and bad cough again in April???? The sickness impeded me from running and exercising every day!!!!! :(
+
 
 
 
