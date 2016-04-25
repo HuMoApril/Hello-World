@@ -63,7 +63,7 @@ Print "If I add %d, %d, %d and %d I get %d" % (
 My_age, My_height, My_weight, My_age + My_height+ My_wieght)
 
 
-Ex 7
+#Ex 7 It is time for dinner.
 
 
 
