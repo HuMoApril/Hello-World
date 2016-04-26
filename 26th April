@@ -1,1 +1,58 @@
-# Ex 8,9
+# Ex 7,8,9
+#[Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python27", "User")
+
+print "Lily has a little lamb."
+print "Its fleece was white as %s." % 'snow'
+print "Everywhere she went."
+print "." * 10 # What would that do?
+
+end1 = "V"
+end2 = "i"
+end3 = "r"
+end4 = "g"
+end5 = "i"
+end6 = "n"
+end7 = "i"
+end8 = "a"
+end9 = "T"
+end10 = "e"
+end11 = "c"
+end12 = "h"
+
+print end1 + end2 + end3 + end4 + end5 + end6 +end7 +end8,
+print end9 + end 10 + end11 + end12
+
+
+formatter = "%r %r %r %r"
+
+print formatter % (1, 2, 3, 4)
+print formatter % ("one", "two", "three", "four")
+print formatter % (True, False, True, False)
+print formatter % (formatter, formatter, formatter, formatter)
+print formatter % (
+'My favorite music style is rock & roll.',
+'Among rock music, I love the pop mental most.',
+'My favorite rock band used to be Cinderella from the Philadelphia,',
+'but recently, I find I love Mr Big from Los Angelas better.'
+)
+
+#\n !!
+
+# EX 9 print, print , print again
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+
+print "Here are the days: ", days
+print "Here are the months: ", months
+
+print """
+There are something going on here
+With the three double-quotes.
+We'll be able to type as much as we like
+Even 4 lines if we want, or 5, or 6.
+"""
+
+#EX11  raw_input()
+
+
